@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BBFA54B1A32DC040017D00E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBFA54A1A32DC040017D00E /* Media.xcassets */; };
+		5BBFA54D1A32DC540017D00E /* KailuaSunrise2012.960.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBFA54C1A32DC540017D00E /* KailuaSunrise2012.960.png */; };
 		A069C6CB19FC5AAE00E7E6D5 /* Icon-34@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A069C6CA19FC5AAD00E7E6D5 /* Icon-34@2x.png */; };
 		A069C6CD19FEBB7400E7E6D5 /* Icon-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A069C6CC19FEBB7400E7E6D5 /* Icon-0@2x.png */; };
 		A069C6CF19FEDA9B00E7E6D5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A069C6CE19FEDA9B00E7E6D5 /* LICENSE */; };
@@ -70,11 +72,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BBFA54A1A32DC040017D00E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5BBFA54C1A32DC540017D00E /* KailuaSunrise2012.960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KailuaSunrise2012.960.png; sourceTree = "<group>"; };
 		A069C6CA19FC5AAD00E7E6D5 /* Icon-34@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-34@2x.png"; sourceTree = "<group>"; };
 		A069C6CC19FEBB7400E7E6D5 /* Icon-0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-0@2x.png"; sourceTree = "<group>"; };
 		A069C6CE19FEDA9B00E7E6D5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A069C6D019FEDAA200E7E6D5 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
-		A073BBB219F9C7AB0068D6A6 /* WatchSpringboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSpringboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A073BBB219F9C7AB0068D6A6 /* AppsPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A073BBB619F9C7AB0068D6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A073BBB719F9C7AB0068D6A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A073BBB919F9C7AB0068D6A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,7 +88,7 @@
 		A073BBC019F9C7AB0068D6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A073BBC219F9C7AB0068D6A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A073BBC519F9C7AB0068D6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A073BBCB19F9C7AC0068D6A6 /* WatchSpringboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSpringboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A073BBCB19F9C7AC0068D6A6 /* AppsPaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppsPaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A073BBD019F9C7AC0068D6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A073BBD119F9C7AC0068D6A6 /* WatchSpringboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchSpringboardTests.m; sourceTree = "<group>"; };
 		A073BBDC19F9C8220068D6A6 /* LMSpringboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSpringboardView.h; sourceTree = "<group>"; };
@@ -165,8 +169,8 @@
 		A073BBB319F9C7AB0068D6A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A073BBB219F9C7AB0068D6A6 /* WatchSpringboard.app */,
-				A073BBCB19F9C7AC0068D6A6 /* WatchSpringboardTests.xctest */,
+				A073BBB219F9C7AB0068D6A6 /* AppsPaper.app */,
+				A073BBCB19F9C7AC0068D6A6 /* AppsPaperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +188,8 @@
 				A089811219FAF4EC00034E0B /* LMViewControllerView.m */,
 				A073BBBF19F9C7AB0068D6A6 /* Main.storyboard */,
 				A073BBC219F9C7AB0068D6A6 /* Images.xcassets */,
+				5BBFA54C1A32DC540017D00E /* KailuaSunrise2012.960.png */,
+				5BBFA54A1A32DC040017D00E /* Media.xcassets */,
 				A073BBC419F9C7AB0068D6A6 /* LaunchScreen.xib */,
 				A089811419FAFC7900034E0B /* Icons */,
 				A073BBB519F9C7AB0068D6A6 /* Supporting Files */,
@@ -285,9 +291,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A073BBB119F9C7AB0068D6A6 /* WatchSpringboard */ = {
+		A073BBB119F9C7AB0068D6A6 /* AppsPaper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A073BBD519F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "WatchSpringboard" */;
+			buildConfigurationList = A073BBD519F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "AppsPaper" */;
 			buildPhases = (
 				A073BBAE19F9C7AB0068D6A6 /* Sources */,
 				A073BBAF19F9C7AB0068D6A6 /* Frameworks */,
@@ -297,14 +303,14 @@
 			);
 			dependencies = (
 			);
-			name = WatchSpringboard;
+			name = AppsPaper;
 			productName = WatchSpringboard;
-			productReference = A073BBB219F9C7AB0068D6A6 /* WatchSpringboard.app */;
+			productReference = A073BBB219F9C7AB0068D6A6 /* AppsPaper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A073BBCA19F9C7AC0068D6A6 /* WatchSpringboardTests */ = {
+		A073BBCA19F9C7AC0068D6A6 /* AppsPaperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A073BBD819F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "WatchSpringboardTests" */;
+			buildConfigurationList = A073BBD819F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "AppsPaperTests" */;
 			buildPhases = (
 				A073BBC719F9C7AC0068D6A6 /* Sources */,
 				A073BBC819F9C7AC0068D6A6 /* Frameworks */,
@@ -315,9 +321,9 @@
 			dependencies = (
 				A073BBCD19F9C7AC0068D6A6 /* PBXTargetDependency */,
 			);
-			name = WatchSpringboardTests;
+			name = AppsPaperTests;
 			productName = WatchSpringboardTests;
-			productReference = A073BBCB19F9C7AC0068D6A6 /* WatchSpringboardTests.xctest */;
+			productReference = A073BBCB19F9C7AC0068D6A6 /* AppsPaperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -338,7 +344,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A073BBAD19F9C7AB0068D6A6 /* Build configuration list for PBXProject "WatchSpringboard" */;
+			buildConfigurationList = A073BBAD19F9C7AB0068D6A6 /* Build configuration list for PBXProject "AppsPaper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -351,8 +357,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A073BBB119F9C7AB0068D6A6 /* WatchSpringboard */,
-				A073BBCA19F9C7AC0068D6A6 /* WatchSpringboardTests */,
+				A073BBB119F9C7AB0068D6A6 /* AppsPaper */,
+				A073BBCA19F9C7AC0068D6A6 /* AppsPaperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -363,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A089814019FAFC7900034E0B /* Icon-18@2x.png in Resources */,
+				5BBFA54D1A32DC540017D00E /* KailuaSunrise2012.960.png in Resources */,
 				A089814F19FAFC7900034E0B /* Icon-31@2x.png in Resources */,
 				A089813C19FAFC7900034E0B /* Icon-14@2x.png in Resources */,
 				A089814619FAFC7900034E0B /* Icon-23@2x.png in Resources */,
@@ -378,6 +385,7 @@
 				A089814119FAFC7900034E0B /* Icon-19@2x.png in Resources */,
 				A073BBC119F9C7AB0068D6A6 /* Main.storyboard in Resources */,
 				A089814B19FAFC7900034E0B /* Icon-28@2x.png in Resources */,
+				5BBFA54B1A32DC040017D00E /* Media.xcassets in Resources */,
 				A069C6D119FEDAA200E7E6D5 /* README.TXT in Resources */,
 				A089814E19FAFC7900034E0B /* Icon-30@2x.png in Resources */,
 				A089814219FAFC7900034E0B /* Icon-1@2x.png in Resources */,
@@ -444,7 +452,7 @@
 /* Begin PBXTargetDependency section */
 		A073BBCD19F9C7AC0068D6A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A073BBB119F9C7AB0068D6A6 /* WatchSpringboard */;
+			target = A073BBB119F9C7AB0068D6A6 /* AppsPaper */;
 			targetProxy = A073BBCC19F9C7AC0068D6A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -554,7 +562,7 @@
 				INFOPLIST_FILE = WatchSpringboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppsPaper;
 			};
 			name = Debug;
 		};
@@ -565,7 +573,7 @@
 				INFOPLIST_FILE = WatchSpringboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AppsPaper;
 			};
 			name = Release;
 		};
@@ -583,8 +591,8 @@
 				);
 				INFOPLIST_FILE = WatchSpringboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSpringboard.app/WatchSpringboard";
+				PRODUCT_NAME = AppsPaperTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppsPaper.app/AppsPaper";
 			};
 			name = Debug;
 		};
@@ -598,15 +606,15 @@
 				);
 				INFOPLIST_FILE = WatchSpringboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSpringboard.app/WatchSpringboard";
+				PRODUCT_NAME = AppsPaperTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppsPaper.app/AppsPaper";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A073BBAD19F9C7AB0068D6A6 /* Build configuration list for PBXProject "WatchSpringboard" */ = {
+		A073BBAD19F9C7AB0068D6A6 /* Build configuration list for PBXProject "AppsPaper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A073BBD319F9C7AC0068D6A6 /* Debug */,
@@ -615,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A073BBD519F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "WatchSpringboard" */ = {
+		A073BBD519F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "AppsPaper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A073BBD619F9C7AC0068D6A6 /* Debug */,
@@ -624,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A073BBD819F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "WatchSpringboardTests" */ = {
+		A073BBD819F9C7AC0068D6A6 /* Build configuration list for PBXNativeTarget "AppsPaperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A073BBD919F9C7AC0068D6A6 /* Debug */,
